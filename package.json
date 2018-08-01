@@ -5,7 +5,9 @@
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "storybook-chromatic": "^1.0.1"
   },
   "devDependencies": {
     "@storybook/addon-storyshots": "^3.4.8",
@@ -19,6 +21,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -p 9009 -s public"
+    "build-storybook": "build-storybook -s public"
   }
 }
